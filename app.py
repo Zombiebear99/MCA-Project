@@ -34,10 +34,10 @@ st.markdown("""
         border-left: 5px solid #3B82F6;
     }
     </style>
-""", unsafe_with_html=True)
+""", unsafe_allow_html=True)
 
 # App Header
-st.markdown("<div class='main-title'>🛡️ Advanced Meta-Ensemble Fake News Detection Platform</div>", unsafe_with_html=True)
+st.markdown("<div class='main-title'>🛡️ Advanced Meta-Ensemble Fake News Detection Platform</div>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Load the saved Pickle pipeline safely
@@ -122,7 +122,7 @@ if st.button("Run Ensemble Verification", type="primary"):
                 <h2>{true_confidence:.1f}%</h2>
                 <p style='color:gray; font-size:12px;'>Probability calculated via averaged log-weights</p>
             </div>
-            """, unsafe_with_html=True)
+            """, unsafe_allow_html=True)
             
         with col2:
             st.markdown(f"""
@@ -131,7 +131,7 @@ if st.button("Run Ensemble Verification", type="primary"):
                 <h2>{fake_confidence:.1f}%</h2>
                 <p style='color:gray; font-size:12px;'>Linguistic variances captured by the ensemble matrix</p>
             </div>
-            """, unsafe_with_html=True)
+            """, unsafe_allow_html=True)
 
 # Footer 
-st.markdown("<br><hr><center style='color:gray; font-size:12px;'>MCA Final Project Review Presentation App Framework • Built with Streamlit</center>", unsafe_with_html=True)
+st.markdown("<br><hr><center style='color:gray; font-size:12px;'>Project Review Presentation App</center>", unsafe_allow_html=True)
