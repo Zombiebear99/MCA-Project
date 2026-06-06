@@ -34,7 +34,7 @@ st.markdown("""
         border-left: 5px solid #3B82F6;
     }
     </style>
-""", unsafe_with_html=True)
+""", unsafe_allow_html=True)
 
 # App Header
 st.markdown("<div class='main-title'>🛡️ Advanced Meta-Ensemble Fake News Detection Platform</div>", unsafe_allow_html=True)
