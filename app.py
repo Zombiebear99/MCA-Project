@@ -134,4 +134,4 @@ if st.button("Run Ensemble Verification", type="primary"):
             """, unsafe_allow_html=True)
 
 # Footer 
-st.markdown("<br><hr><center style='color:gray; font-size:12px;'>MCA Final Project Review Presentation App Framework • Built with Streamlit</center>", unsafe_allow_html=True)
+st.markdown("<br><hr><center style='color:gray; font-size:12px;'>Project Review Presentation App</center>", unsafe_allow_html=True)
