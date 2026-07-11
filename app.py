@@ -132,6 +132,3 @@ if st.button("Run Ensemble Verification", type="primary"):
                 <p style='color:gray; font-size:12px;'>Linguistic variances captured by the ensemble matrix</p>
             </div>
             """, unsafe_allow_html=True)
-
-# Footer 
-st.markdown("<br><hr><center style='color:gray; font-size:12px;'>Project Review Presentation App</center>", unsafe_allow_html=True)
